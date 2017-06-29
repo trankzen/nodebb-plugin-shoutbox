@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-tribune",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "NodeBB Tribune Plugin (forked from shoutbox 0.3.3)",
   "main": "library.js",
   "scripts": {
