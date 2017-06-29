@@ -15,7 +15,7 @@
     { "hook": "action:user.saveSettings", "method": "settings.saveUserSettings" },
 
     { "hook": "filter:widgets.getWidgets", "method": "widget.define" },
-    { "hook": "filter:widget.render:tribune", "method": "widget.render" }
+    { "hook": "filter:widget.render:shoutbox", "method": "widget.render" }
   ],
   "staticDirs": {
     "public": "./public"
