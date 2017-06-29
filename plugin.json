@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-shoutbox",
+  "id": "nodebb-plugin-tribune",
   "name": "Shoutbox",
-  "description": "NodeBB Plugin Shoutbox",
-  "url": "https://github.com/Schamper/nodebb-plugin-shoutbox",
+  "description": "NodeBB Plugin Tribune",
+  "url": "https://github.com/trankzen/nodebb-plugin-tribune",
   "library": "./library.js",
   "hooks": [
     { "hook": "static:app.load", "method": "init.load" },
@@ -15,7 +15,7 @@
     { "hook": "action:user.saveSettings", "method": "settings.saveUserSettings" },
 
     { "hook": "filter:widgets.getWidgets", "method": "widget.define" },
-    { "hook": "filter:widget.render:shoutbox", "method": "widget.render" }
+    { "hook": "filter:widget.render:tribune", "method": "widget.render" }
   ],
   "staticDirs": {
     "public": "./public"
