@@ -1,24 +1,24 @@
 {
-  "name": "nodebb-plugin-shoutbox",
-  "version": "0.3.3",
-  "description": "NodeBB Shoutbox Plugin",
+  "name": "nodebb-plugin-tribune",
+  "version": "0.1",
+  "description": "NodeBB Tribune Plugin (forked from shoutbox 0.3.3)",
   "main": "library.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Schamper/nodebb-plugin-shoutbox"
+    "url": "https://github.com/trankzen/nodebb-plugin-tribune"
   },
   "keywords": [
     "nodebb",
     "plugin",
     "shoutbox"
   ],
-  "author": "Schamper <mrwafflewaffle@aim.com>",
+  "author": "trankzen <dev.null@trankzen.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Schamper/nodebb-plugin-shoutbox/issues"
+    "url": "https://github.com/trankzen/nodebb-plugin-tribune/issues"
   },
   "dependencies": {
     "async": "~1.5.2",
